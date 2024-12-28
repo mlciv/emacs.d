@@ -35,6 +35,7 @@
 
 
     (use-package evil-nerd-commenter
+      :ensure evil-commentary
       :ensure evil-nerd-commenter
       :commands (evilnc-comment-or-uncomment-lines))
 
